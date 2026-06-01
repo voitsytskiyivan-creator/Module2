@@ -1,0 +1,17 @@
+### Файл `pyproject.toml`
+
+```toml
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "electronic_library_catalog"
+version = "1.0.0"
+authors = [
+  { name="Войцицький І.О.", email="voitsytskiyivan@gmail.com" }
+]
+description = "Консольний застосунок для управління електронним каталогом бібліотеки"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
